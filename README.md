@@ -1,16 +1,40 @@
-# app
+Реализованная функциональность:
+  - Регистрация/авторизация пользователя.
+  - Возможность записи волонтера на выезд через календарь.
+  - Загрузка и агрегирования актов.
 
-A new Flutter project.
+Особенность проекта в следующем:
+  - Приложение позволяет агрегировать все акты в единую таблицу и проводить подробную их аналитику.
+  - Цифровой помощник с уведомлениями.
+  - Форма для вынесения данных из актов.
 
-## Getting Started
+Основной стек технологий: 
+ - Front - Flutter & Dart. 
+ - Back - Python (Flask), sql. 
+ - Control Version - Git.
 
-This project is a starting point for a Flutter application.
+Среда запуска
+Visual Studio Code.
 
-A few resources to get you started if this is your first Flutter project:
+Установка
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Чтобы ознакомиться и запустить с нашим проектом.Вам придется установить,VS Code, с расширениями Flutter, Dart.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Так же вам надо: Установить SDK Flutter: https://flutter.dev/docs/get-started/install Установить SDK Dart https://dart.dev/get-dart
+
+И подключить их в среде VS Code. Подключить Chrome с помощью команд:
+
+flutter channel beta
+
+flutter upgrade
+
+flutter config —enable-web
+
+flutter doctor -v
+
+И в самом проекте выбрать запуск через Chrome.
+
+Разработчики:
+ - Савелий Басов, backend, @Naked_Snake04
+ - Алексей Кругликов, fullstack, @sobachka25
+ - Степан Шахов, frontend, @takistepan
